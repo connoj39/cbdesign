@@ -1,0 +1,357 @@
+.content {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: grey;
+}
+
+/* Navbar */
+
+.navbar {
+    background-color: #172C54;
+    border-radius: 0;
+    margin-bottom: 0;
+    z-index: 9999;
+    line-height: 1.42857143 !important;
+    border: none;
+    height: 72px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #DAB664;
+    margin-top: 12px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: yellow;
+}
+
+.navbar-header {
+    padding: 5px;
+    margin-top: 6px;
+}
+
+.container-fluid>.navbar-collapse,
+.container-fluid>.navbar-header,
+.container>.navbar-collapse,
+.container>.navbar-header {
+    margin-left: 8px;
+    background-color: #172C54;
+}
+
+
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: yellow;
+    background-color: #172C54;
+}
+
+.social-icons-nav .fa {
+    font-size: 15px;
+    color: #EFD28D;
+    transition: ease-in-out 400ms;
+}
+
+.social-icons-nav .fa:hover {
+    color: yellow;
+    cursor: pointer;
+}
+
+.navbar-default .navbar-toggle {
+    border: none;
+    margin-top: 3px;
+    transition: ease-in-out 400ms;
+    background-color: #172C54;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #DAB664;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: #172C54;
+}
+
+.navbar-default .navbar-toggle .icon-bar:hover {
+    background-color: yellow;
+}
+
+.navbar-toggle {
+    background-color: #172C54;
+}
+
+
+.logo {
+    width: 100px;
+    height: 50px;
+}
+
+.social-icons .fa {
+    transition: ease-in-out 400ms;
+}
+
+.social-icons .fa:hover {
+    color: yellow;
+    cursor: pointer;
+}
+
+
+
+/* Media min-width 768px. Everything above the size of 768px, ex. a tablet */
+
+@media (min-width: 768px) {
+    .container-fluid>.navbar-collapse,
+    .container-fluid>.navbar-header,
+    .container>.navbar-collapse,
+    .container>.navbar-header {
+        margin-left: 0;
+        background-color: #172C54;
+    }
+
+    .navbar-header {
+        margin-top: 8px;
+    }
+
+    .navbar-default .navbar-nav>li>a {
+        font-size: 11px;
+        letter-spacing: 3px;
+    }
+
+    .nav>li>a {
+        display: inline-block;
+        text-transform: uppercase;
+        transition: ease-in-out 500ms;
+    }
+
+    .logo {
+        width: 120px;
+        height: 60px;
+        margin-bottom: 10px;
+    }
+    .navbar {
+        height: 90px !important;
+    }
+    .navbar-default .navbar-nav>li>a {
+        color: #DAB664;
+        margin-top: 22px;
+    }
+    .navbar-left {
+        float: right!important;
+        margin-right: -15px;
+    }
+}
+
+/* Media min-width 992px. Everything above 992px. Ex. large tablet, laptop */
+
+@media (min-width: 992px) {
+    .container-fluid>.navbar-collapse,
+    .container-fluid>.navbar-header,
+    .container>.navbar-collapse,
+    .container>.navbar-header {
+        margin-left: 20px;
+        background-color: #172C54;
+    }
+    .navbar-header {
+        margin-top: 10px;
+    }
+    .navbar {
+        height: 131px !important;
+    }
+    .navbar-default .navbar-nav>li>a {
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
+    .logo {
+        width: 200px;
+        height: 100px;
+        padding: 0;
+    }
+    .navbar-default .navbar-nav>li>a {
+        color: #DAB664;
+        margin-top: 42px;
+    }
+    .social-icons-nav {
+        float: right;
+        margin-top: 56px;
+        margin-right: 15px;
+        margin-left: 20px;
+        letter-spacing: 6px;
+    }
+    .navbar-left {
+        float: left;
+    }
+}
+
+
+/* Containers */
+
+/* Slider */
+
+.slider {
+    padding: 0
+}
+
+/* Slider */
+
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-next,
+.carousel-control .icon-prev {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+    margin-top: -10px;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 15%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, 0);
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none;
+}
+
+/* Main */
+
+.col-xs-8 {
+    width: 66.66666667%;
+    padding: 0;
+}
+
+.col-xs-4 {
+    width: 33.3333333%;
+    padding: 0;
+}
+
+/* Main */
+
+/* Footer */
+
+.text-center {
+    background-color: #172C54;
+    height: 80px;
+}
+
+.social-icons {
+    display: block;
+    list-style: none;
+    color: #EFD28D;
+    letter-spacing: 14px;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+.follow-us {
+    font-size: 11px;
+    color: #fafafa;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 17px;
+}
+
+.copyright {
+    font-size: 9px;
+    color: #DDDBDA;
+    margin-left: 25px;
+}
+
+
+@media (min-width: 768px) {
+    .text-center {
+        background-color: #172C54;
+        height: 80px;
+    }
+
+    .social-icons {
+        display: block;
+        list-style: none;
+        color: #EFD28D;
+        letter-spacing: 14px;
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 7px;
+    }
+
+    .follow-us {
+        font-size: 11px;
+        color: #fafafa;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 0;
+        margin-left: 26px;
+        margin-bottom: 5px;
+    }
+
+    .copyright {
+        font-size: 9px;
+        color: #DDDBDA;
+        margin-left: 25px;
+
+    }
+}
+
+
+
+
+@media (min-width: 992px) {
+    .text-center {
+        background-color: #172C54;
+        height: 127px;
+    }
+
+    .social-icons {
+        display: block;
+        list-style: none;
+        color: #EFD28D;
+        letter-spacing: 14px;
+        font-size: 20px;
+        text-align: center;
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+    }
+
+    .follow-us {
+        font-size: 12px;
+        color: #fafafa;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        margin-left: 26px;
+    }
+
+    .copyright {
+        font-size: 9px;
+        color: #DDDBDA;
+        margin-left: 25px;
+        padding-bottom: 10px;
+    }
+}
+
+/* Footer */
