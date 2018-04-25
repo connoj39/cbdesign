@@ -7,119 +7,68 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>AC Temp. site</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
-    <link rel="stylesheet" href="style/contact.css" type="text/css" />
+    <link href='https://fonts.googleapis.com/css?family=GFS Didot' rel='stylesheet'>
+    <link rel="stylesheet" href="style/style.css" type="text/css" />
 </head>
 
 <body>
 
-
-
     <!-- NAV -->
-    <nav class="navbar navbar-default" data-spy="affix" data-offset-top="197">
+    <nav class="navbar navbar-default">
         <div class="container-fluid ">
             <div class="navbar-header ">
-                <a href="#home page " class="navbar-logo hidden-xs hidden-sm">
-                      <img src="https://placehold.it/200x100?text=IMAGE " alt="logo ">
+                <button type="button " class="navbar-toggle" data-toggle="collapse " data-target="#navbar " aria-expanded="false ">
+                     <span class="icon-bar "></span>
+                     <span class="icon-bar "></span>
+                     <span class="icon-bar "></span>
+                </button>
+                <a class="navbar-logo" href="#myPage">
+                    <a href="#home page " class="navbar-logo">
+                      <img class="logo" src="/images/ConbuInteriorDesignlogo2updated1.png " alt="logo ">
+                    </a>
                 </a>
-                <button type="button " class="navbar-toggle collapsed " data-toggle="collapse " data-target="#navbar " aria-expanded="false ">
-                     <span class="icon-bar "></span>
-                     <span class="icon-bar "></span>
-                     <span class="icon-bar "></span>
-            </button>
             </div>
-            <div class="navbar-collapse collapse " id="navbar ">
-                <ul class="nav navbar-nav hidden-xs ">
-                    <li class="active "><a href="/ ">Welcome</a></li>
-                    <li><a href="# ">About Design</a></li>
-                    <li><a href="# ">Portfolio</a></li>
-                    <li><a href="# ">Products</a></li>
-                    <li><a href="# ">Contact</a></li>
+            <div class="navbar-collapse collapse " id="navbar">
+                <ul class="social-icons-nav hidden-xs hidden-sm">
+                    <li class="fa fa-linkedin "><a href="# "></a></li>
+                    <li class="fa fa-twitter "><a href="# "></a></li>
+                    <li class="fa fa-facebook "><a href="# "></a></li>
+                    <li class="fa fa-pinterest "><a href="# "></a></li>
+                    <li class="fa fa-google "><a href="#h "></a></li>
                 </ul>
-            </div>
-            <div class="social ">
-                <ul class="nav navbar-nav navbar-right ">
-                    <ul class="social-icons-nav ">
-                        <li class="fa fa-pinterest "><a href="# "></a></li>
-                        <li class="fa fa-facebook "><a href="# "></a></li>
-                        <li class="fa fa-linkedin "><a href="# "></a></li>
-                        <li class="fa fa-twitter "><a href="# "></a></li>
-                        <li class="fa fa-google "><a href="#h "></a></li>
-                    </ul>
+                <ul class="nav navbar-nav navbar-left">
+                    <li class="active "><a href="/ ">Welcome</a></li>
+                    <li><a href="# ">My Story</a></li>
+                    <li><a href="# ">Portfolio</a></li>
+                    <li><a href="# ">Blog</a></li>
+                    <li><a href="# ">Services</a></li>
+                    <li><a href="# ">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-
     <!-- NAV -->
-    <!-- Container (Contact Section) -->
-    <div class="container-fluid bg-grey">
-        <h2 class="text-center">CONTACT</h2>
-        <div class="row">
-            <div class="col-sm-5">
-                <p>Contact us and we'll get back to you within 24 hours.</p>
-                <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
-                <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
-                <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
-            </div>
-            <div class="col-sm-7">
-                <div class="row">
-                    <div class="col-sm-6 form-group">
-                        <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-                    </div>
-                    <div class="col-sm-6 form-group">
-                        <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-                    </div>
-                </div>
-                <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
-                <div class="row">
-                    <div class="col-sm-12 form-group">
-                        <button class="btn btn-default pull-right" type="submit">Send</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Add Google Maps -->
-    <div id="googleMap" style="height:400px;width:100%;"></div>
-    <script>
-        function myMap() {
-            var myCenter = new google.maps.LatLng(41.878114, -87.629798);
-            var mapProp = { center: myCenter, zoom: 12, scrollwheel: false, draggable: false, mapTypeId: google.maps.MapTypeId.ROADMAP };
-            var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
-            var marker = new google.maps.Marker({ position: myCenter });
-            marker.setMap(map);
-        }
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
-    <!--
-To use this code on your website, get a free API key from Google.
-Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
--->
 
 
-
+   
 
     <!-- Footer -->
 
-    <footer class="footer ">
-        <ul class="footer-navigation ">
-            <li class="menu-item copyright ">© 2018 Copyright: CB Design</li>
-            <li class="menu-item credit "><a href="# ">Credits</a></li>
-        </ul>
-
-        <div class="social-links ">
-            <span class="share-links-title ">Follow us:</span>
-            <ul class="social-icons ">
-                <li class="fa fa-pinterest "><a href="# "></a></li>
-                <li class="fa fa-facebook "><a href="# "></a></li>
-                <li class="fa fa-linkedin "><a href="# "></a></li>
-                <li class="fa fa-twitter "><a href="# "></a></li>
-                <li class="fa fa-google "><a href="#h "></a></li>
-            </ul>
+    <footer class="container-fluid text-center ">
+        <div class="row ">
+            <div class="social-links ">
+                <p class="follow-us ">Follow us on:</p>
+                <ul class="social-icons ">
+                    <li class="fa fa-linkedin "><a href="# "></a></li>
+                    <li class="fa fa-facebook "><a href="# "></a></li>
+                    <li class="fa fa-twitter "><a href="# "></a></li>
+                    <li class="fa fa-houzz "><a href="#h "></a></li>
+                    <li class="fa fa-pinterest "><a href="# "></a></li>
+                    <li class="fa fa-instagram "><a href="# "></a></li>
+                </ul>
+            </div>
+            <p class="copyright">© 2018 Copyright: Conbu Interior Design</p>
         </div>
     </footer>
 
@@ -130,7 +79,6 @@ Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
     <script src="https://code.jquery.com/jquery-3.3.1.min.js " integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=" anonymous "></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js " integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa " crossorigin="anonymous "></script>
-
 
 </body>
 
