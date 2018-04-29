@@ -25,10 +25,6 @@
     color: yellow;
 }
 
-a:active {
-    color: yellow;
-}
-
 .navbar-header {
     padding: 5px;
     margin-top: 6px;
@@ -166,26 +162,13 @@ a:active {
 
 /* Used W3 Schools to get slider code */
 
-.carousel-control .glyphicon-chevron-left,
-.carousel-control .glyphicon-chevron-right,
-.carousel-control .icon-next,
-.carousel-control .icon-prev {
-    position: absolute;
-    top: 50%;
-    z-index: 5;
-    display: inline-block;
-    margin-top: -10px;
-}
-
 .carousel-control {
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
-    width: 15%;
-    font-size: 20px;
-    color: #fff;
-    text-align: center;
+    width: 5%;
+    color: #fafafa;
     text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
     background-color: rgba(0, 0, 0, 0);
     filter: alpha(opacity=50);
@@ -312,6 +295,82 @@ a:active {
     .block-divider-portfolio {
         width: 25px;
     }
+     /* Used W3 Schools to get hover effect code */
+    .imgage-in-portfolio-page {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .6s ease-in-out;
+        backface-visibility: hidden;
+        margin-left: 75px;
+    }
+
+    .middle {
+        transition: .6s ease-in-out;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .portfolio-image:hover .imgage-in-portfolio-page {
+        opacity: 0.3;
+    }
+
+    .portfolio-image:hover .middle {
+        opacity: 1;
+    }
+
+    .portfolio-image-link {
+        text-decoration: none;
+        color: #fafafa;
+        cursor: pointer;
+    }
+    .portfolio-image-link:hover {
+        text-decoration: none;
+        color: #DAB664;
+        transition: .6s ease-in-out;
+    }
+
+    .portfolio-text {
+        font-size: 16px;
+        background-color: #172C54;
+        padding: 16px 32px;
+        margin-left: -30px;
+        margin-bottom: 50px;
+    }
+
+    .caption-portfolio {
+        color: #DAB664;
+        padding: 5px;
+        margin-left: 70px;
+        margin-right: 70px;
+        font-size: 18px;
+    }
+
+    .caption-portfolio-link {
+        text-decoration: none;
+        color: #DAB664;
+        cursor: pointer;
+    }
+
+    .caption-portfolio-link:hover {
+        text-decoration: none;
+        background-color: #172C54;
+        color: #DAB664;
+        transition: .6s ease-in-out;
+        padding: 10px;
+    }
+
+    .block-divider-portfolio {
+        width: 25px;
+        margin-bottom: 45px;
+    }
+
 
 
 }
@@ -335,6 +394,8 @@ a:active {
     .navbar-default .navbar-nav>li>a {
         font-size: 12px;
         letter-spacing: 2px;
+        color: #DAB664;
+        margin-top: 42px;
     }
 
     .logo {
@@ -342,10 +403,7 @@ a:active {
         height: 100px;
         padding: 0;
     }
-    .navbar-default .navbar-nav>li>a {
-        color: #DAB664;
-        margin-top: 42px;
-    }
+
     .social-icons-nav {
         float: right;
         margin-top: 56px;
@@ -395,18 +453,18 @@ a:active {
 
 
     /* Used W3 Schools to get hover effect code */
-    .portfolio-image {
+    .imgage-in-portfolio-page {
         opacity: 1;
         display: block;
         width: 100%;
         height: auto;
-        transition: .5s ease;
+        transition: .6s ease-in-out;
         backface-visibility: hidden;
         margin-left: 75px;
     }
 
     .middle {
-        transition: .5s ease;
+        transition: .6s ease-in-out;
         opacity: 0;
         position: absolute;
         top: 50%;
@@ -414,10 +472,9 @@ a:active {
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
         text-align: center;
-        cursor: pointer;
     }
 
-    .portfolio-image:hover {
+    .portfolio-image:hover .imgage-in-portfolio-page {
         opacity: 0.3;
     }
 
@@ -425,14 +482,23 @@ a:active {
         opacity: 1;
     }
 
-    .portfolio-text {
+    .portfolio-image-link {
+        text-decoration: none;
         color: #fafafa;
+        cursor: pointer;
+    }
+    .portfolio-image-link:hover {
+        text-decoration: none;
+        color: #DAB664;
+        transition: .6s ease-in-out;
+    }
+
+    .portfolio-text {
         font-size: 16px;
         background-color: #172C54;
         padding: 16px 32px;
         margin-left: -30px;
         margin-bottom: 50px;
-
     }
 
     .caption-portfolio {
@@ -441,7 +507,20 @@ a:active {
         margin-left: 70px;
         margin-right: 70px;
         font-size: 18px;
+    }
+
+    .caption-portfolio-link {
+        text-decoration: none;
+        color: #DAB664;
         cursor: pointer;
+    }
+
+    .caption-portfolio-link:hover {
+        text-decoration: none;
+        background-color: #172C54;
+        color: #DAB664;
+        transition: .6s ease-in-out;
+        padding: 10px;
     }
 
     .block-divider-portfolio {
