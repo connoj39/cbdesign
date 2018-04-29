@@ -150,6 +150,12 @@
     background-color: #DAB664;
 }
 
+.caption-project {
+    font-size: 18px;
+    color: #DAB664;
+    margin-bottom: 15px;
+}
+
 /* Navbar */
 
 /* Slider */
@@ -197,6 +203,12 @@
     padding: 0;
 }
 
+.caption-project {
+    font-size: 18px;
+    color: #DAB664;
+}
+
+
 
 
 
@@ -217,7 +229,7 @@
 
     .navbar-default .navbar-nav>li>a {
         font-size: 11px;
-        letter-spacing: 3px;
+        letter-spacing: 2px;
     }
 
     .nav>li>a {
@@ -289,13 +301,13 @@
 
     .portfolio-p {
         text-align: justify;
-        margin: 25px 90px 10px 90px;
+        margin: 25px 90px 30px 90px;
         padding: 0;
     }
     .block-divider-portfolio {
         width: 25px;
     }
-     /* Used W3 Schools to get hover effect code */
+    /* Used W3 Schools to get hover effect code */
     .imgage-in-portfolio-page {
         opacity: 1;
         display: block;
@@ -370,9 +382,14 @@
         width: 25px;
         margin-bottom: 45px;
     }
-
-
-
+    .project-images {
+        margin-left: 4%;
+    }
+    .caption-project {
+        font-size: 18px;
+        color: #DAB664;
+        margin-bottom: 20px;
+    }
 }
 
 /* Media min-width 992px. Everything above 992px. Ex. large tablet, laptop */
@@ -389,7 +406,7 @@
         margin-top: 10px;
     }
     .navbar {
-        height: 132px;
+        height: 130px;
     }
     .navbar-default .navbar-nav>li>a {
         font-size: 12px;
@@ -527,7 +544,16 @@
         width: 25px;
         margin-bottom: 45px;
     }
+    .project-images {
+        margin-left: 8%;
+    }
 
-
-
+    .project-image {
+        padding: 5px;
+    }
+    .caption-project {
+        font-size: 18px;
+        color: #DAB664;
+        margin-bottom: 30px;
+    }
 }
