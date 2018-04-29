@@ -25,6 +25,10 @@
     color: yellow;
 }
 
+a:active {
+    color: yellow;
+}
+
 .navbar-header {
     padding: 5px;
     margin-top: 6px;
@@ -332,6 +336,7 @@
         font-size: 12px;
         letter-spacing: 2px;
     }
+
     .logo {
         width: 200px;
         height: 100px;
