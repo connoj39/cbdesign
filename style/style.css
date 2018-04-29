@@ -160,6 +160,8 @@
 
 /* Slider */
 
+/* Used W3 Schools to get slider code */
+
 .carousel-control .glyphicon-chevron-left,
 .carousel-control .glyphicon-chevron-right,
 .carousel-control .icon-next,
@@ -284,11 +286,6 @@
         margin-left: 25px;
     }
 
-    .portfolio-images {
-        margin: 12px 35px 0 35px;
-        padding: 0;
-    }
-
     .caption-portfolio {
         color: #DAB664;
         padding: 5px;
@@ -311,6 +308,7 @@
     .block-divider-portfolio {
         width: 25px;
     }
+
 
 }
 
@@ -386,13 +384,50 @@
     }
     .portfolio-p {
         text-align: justify;
-        margin: 25px 150px 10px 150px;
+        margin: 25px 150px 57px 150px;
         padding: 0;
     }
 
-    .portfolio-images {
-        margin: 25px 75px 0 75px;
-        padding: 0;
+
+    /* Used W3 Schools to get hover effect code */
+    .portfolio-image {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+        margin-left: 75px;
+    }
+
+    .middle {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .portfolio-image:hover {
+        opacity: 0.3;
+    }
+
+    .portfolio-image:hover .middle {
+        opacity: 1;
+    }
+
+    .portfolio-text {
+        color: #fafafa;
+        font-size: 16px;
+        background-color: #172C54;
+        padding: 16px 32px;
+        margin-left: -30px;
+        margin-bottom: 50px;
+
     }
 
     .caption-portfolio {
@@ -401,9 +436,12 @@
         margin-left: 70px;
         margin-right: 70px;
         font-size: 18px;
+        cursor: pointer;
     }
+
     .block-divider-portfolio {
         width: 25px;
+        margin-bottom: 45px;
     }
 
 
