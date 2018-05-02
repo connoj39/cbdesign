@@ -97,6 +97,7 @@
 .text-center {
     background-color: #172C54;
     height: 80px;
+    margin-top: 10px;
 }
 
 .social-icons {
@@ -129,9 +130,14 @@
     margin-top: 15px;
 }
 
+.caption-portfolio a {
+    color: #DAB664;
+    text-decoration: none;
+}
+
 .caption-portfolio {
     color: #DAB664;
-    margin-left: 10px;
+    margin-left: 1%;
     margin-bottom: 28px;
 }
 
@@ -148,12 +154,6 @@
     width: 25px;
     height: 3px;
     background-color: #DAB664;
-}
-
-.caption-project {
-    font-size: 18px;
-    color: #DAB664;
-    margin-bottom: 15px;
 }
 
 /* Navbar */
@@ -193,23 +193,61 @@
     list-style: none;
 }
 
-.col-xs-8 {
-    width: 66.66666667%;
-    padding: 0;
-}
-
-.col-xs-4 {
-    width: 33.3333333%;
-    padding: 0;
+.project-images {
+    margin-left: 5%;
 }
 
 .caption-project {
     font-size: 18px;
     color: #DAB664;
+    margin-bottom: 30px;
 }
 
+.home-page-h1 {
+    font-size: 18px;
+}
 
+.home-image {
+    display: inline-block;
+    padding: 10px;
+}
 
+.award-logo-houzz {
+    width: 50px;
+    height: 50px;
+    margin-left: 8px;
+}
+
+.award-logo-buildaward {
+    height: 50px;
+    width: 100px;
+}
+
+.award-logo-igs {
+    height: 50px;
+    width: 100px;
+    margin-bottom: -8px;
+    margin-top: 5px;
+}
+
+.awards-h1 {
+    text-align: center;
+    font-size: 18px;
+}
+
+.btn-success {
+    background-color: #172C54;
+    border: none;
+    color: #fafafa;
+    margin-top: 20px;
+}
+
+.btn-success:hover {
+    background-color: #172C54;
+    color: #DAB664;
+    transition: 500ms ease-in-out;
+
+}
 
 
 /* Media min-width 768px. Everything above the size of 768px, ex. a tablet */
@@ -315,7 +353,7 @@
         height: auto;
         transition: .6s ease-in-out;
         backface-visibility: hidden;
-        margin-left: 75px;
+        margin-left: 11%;
     }
 
     .middle {
@@ -359,8 +397,7 @@
     .caption-portfolio {
         color: #DAB664;
         padding: 5px;
-        margin-left: 70px;
-        margin-right: 70px;
+        margin-left: 11%;
         font-size: 18px;
     }
 
@@ -383,12 +420,40 @@
         margin-bottom: 45px;
     }
     .project-images {
-        margin-left: 4%;
+        margin-left: 8%;
     }
     .caption-project {
         font-size: 18px;
         color: #DAB664;
         margin-bottom: 20px;
+    }
+    .home-page-h1 {
+        font-size: 22px;
+    }
+    .home-image {
+        display: inline-block;
+        padding: 10px;
+    }
+    .award-logo-houzz {
+        width: 60px;
+        height: 60px;
+        margin-left: 20px;
+    }
+    .award-logo-buildaward {
+        height: 60px;
+        width: 130px;
+        margin-left: 7px;
+    }
+    .award-logo-igs {
+        height: 60px;
+        width: 130px;
+        margin-bottom: -8px;
+        margin-left: -20px;
+    }
+    .awards-h1 {
+        text-align: center;
+        text-align: center;
+        font-size: 18px;
     }
 }
 
@@ -477,7 +542,7 @@
         height: auto;
         transition: .6s ease-in-out;
         backface-visibility: hidden;
-        margin-left: 75px;
+        margin-left: 13%;
     }
 
     .middle {
@@ -485,7 +550,7 @@
         opacity: 0;
         position: absolute;
         top: 50%;
-        left: 50%;
+        left: 52%;
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
         text-align: center;
@@ -514,16 +579,14 @@
         font-size: 16px;
         background-color: #172C54;
         padding: 16px 32px;
-        margin-left: -30px;
         margin-bottom: 50px;
     }
 
     .caption-portfolio {
         color: #DAB664;
         padding: 5px;
-        margin-left: 70px;
-        margin-right: 70px;
         font-size: 18px;
+        margin-left: 11%;
     }
 
     .caption-portfolio-link {
@@ -556,4 +619,33 @@
         color: #DAB664;
         margin-bottom: 30px;
     }
+    .home-page-h1 {
+        font-size: 28px;
+    }
+
+    .home-image {
+        display: inline-block;
+        padding: 10px;
+    }
+    .award-logo-houzz {
+        width: 100px;
+        height: 100px;
+        margin-left: 20px;
+    }
+    .award-logo-buildaward {
+        height: 100px;
+        width: 200px;
+        margin-left: 7px;
+    }
+    .award-logo-igs {
+        height: 120px;
+        width: 200px;
+        margin-bottom: -8px;
+        margin-left: -20px;
+    }
+    .awards-h1 {
+        text-align: center;
+        font-size: 22px;
+    }
+
 }
