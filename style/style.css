@@ -142,8 +142,7 @@
 }
 
 .portfolio-p {
-    text-align: justify;
-    margin: 20px;
+    text-align: center;
 }
 
 .portfolio-images {
@@ -246,6 +245,33 @@
     background-color: #172C54;
     color: #DAB664;
     transition: 500ms ease-in-out;
+}
+
+.btn-default {
+    background-color: #172C54;
+    border: none;
+    color: #fafafa;
+    transition: 500ms ease-in-out;
+}
+
+.btn-default:hover {
+    background-color: #172C54;
+    color: #DAB664;
+    transition: 500ms ease-in-out;
+}
+
+.blog-p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.blog {
+    margin-top: 20px;
+    padding: 0;
+}
+
+.col-sm-4 {
+    padding: 0;
 }
 
 
@@ -462,6 +488,23 @@
     .mystory-p {
         margin-left: 40px;
     }
+    .blog-p {
+        font-size: 14px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .btn {
+        margin-top: 15px;
+    }
+    .form-inline {
+        text-align: center;
+    }
+    .blog {
+        margin-top: 25px;
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
 /* Media min-width 992px. Everything above 992px. Ex. large tablet, laptop */
@@ -663,5 +706,20 @@
     .mystory-p {
         margin-left: 40px;
     }
+    .blog-p {
+        font-size: 14px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .btn {
+        margin: 0;
+    }
 
+    .form-inline {
+        text-align: center;
+    }
+    .blog {
+        margin-top: 50px 0 20px 0;
+        padding: 0;
+    }
 }
