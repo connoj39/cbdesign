@@ -142,7 +142,7 @@
 }
 
 .portfolio-p {
-    text-align: center;
+    text-align: left;
 }
 
 .portfolio-images {
@@ -275,6 +275,7 @@
 }
 
 
+
 /* Media min-width 768px. Everything above the size of 768px, ex. a tablet */
 
 @media (min-width: 768px) {
@@ -366,7 +367,7 @@
     }
 
     .portfolio-p {
-        text-align: justify;
+        text-align: left;
         margin: 25px 90px 30px 90px;
         padding: 0;
     }
@@ -420,6 +421,7 @@
         padding: 16px 32px;
         margin-left: -30px;
         margin-bottom: 50px;
+        text-align: left;
     }
 
     .caption-portfolio {
@@ -491,7 +493,7 @@
     .blog-p {
         font-size: 14px;
         margin-bottom: 30px;
-        text-align: center;
+        text-align: left;
     }
     .btn {
         margin-top: 15px;
@@ -581,7 +583,7 @@
         padding-bottom: 10px;
     }
     .portfolio-p {
-        text-align: justify;
+        text-align: left;
         margin: 25px 150px 57px 150px;
         padding: 0;
     }
@@ -633,6 +635,7 @@
         background-color: #172C54;
         padding: 16px 32px;
         margin-bottom: 50px;
+        text-align: left;
     }
 
     .caption-portfolio {
@@ -709,7 +712,7 @@
     .blog-p {
         font-size: 14px;
         margin-bottom: 40px;
-        text-align: center;
+        text-align: left;
     }
     .btn {
         margin: 0;
