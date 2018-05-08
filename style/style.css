@@ -270,10 +270,26 @@
     padding: 0;
 }
 
-.col-sm-4 {
+.services-p-top {
+    margin-bottom: 8px;
+}
+
+.services-h2 {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.services-p {
+    margin-left: 15px;
+}
+
+.col-sm-8 {
     padding: 0;
 }
 
+.col-sm-4 {
+    padding: 0;
+}
 
 
 /* Media min-width 768px. Everything above the size of 768px, ex. a tablet */
@@ -507,6 +523,18 @@
         margin-left: 0;
         margin-right: 0;
     }
+    .services-p-top {
+        margin: 30px 20px 30px 20px;
+    }
+    .services-p {
+        margin-bottom: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .services-h2 {
+        text-align: center;
+        margin-top: 45px;
+    }
 }
 
 /* Media min-width 992px. Everything above 992px. Ex. large tablet, laptop */
@@ -724,5 +752,17 @@
     .blog {
         margin-top: 50px 0 20px 0;
         padding: 0;
+    }
+    .services-p-top {
+        margin: 50px 50px 70px 50px;
+    }
+    .services-p {
+        margin-bottom: 50px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .services-h2 {
+        text-align: center;
+        margin-top: 115px;
     }
 }
