@@ -297,7 +297,7 @@
 }
 
 .contact-h4 {
-    margin-top: 30px;
+    margin-top: 40px;
     margin-bottom: 20px;
 }
 
@@ -315,8 +315,8 @@
 }
 
 .block-divider-contact {
-    width: 100px;
-    margin-left: -30px;
+    width: 150px;
+    margin-left: -5px;
 }
 
 
@@ -582,6 +582,12 @@
     .left-column-contact {
         margin-top: 30px;
     }
+    .block-divider-contact {
+        width: 220px;
+        margin-left: -5px;
+        margin-right: 30px;
+    }
+
 }
 
 /* Media min-width 992px. Everything above 992px. Ex. large tablet, laptop */
@@ -829,6 +835,13 @@
     }
     .left-column-contact {
         margin-top: 50px;
+        margin-right: 50px;
     }
+    .block-divider-contact {
+        width: 180px;
+        margin-left: -5px;
+        margin-right: 50px;
+    }
+
 
 }
