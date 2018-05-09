@@ -87,6 +87,7 @@
 
 .social-icons .fa {
     transition: ease-in-out 400ms;
+    color: #DAB664;
 }
 
 .social-icons .fa:hover {
