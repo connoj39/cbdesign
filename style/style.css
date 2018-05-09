@@ -319,6 +319,14 @@
     margin-left: -5px;
 }
 
+.blog {
+    margin: 0;
+}
+
+.form-inline {
+    margin-bottom: 30px;
+}
+
 
 
 
@@ -587,261 +595,270 @@
         margin-left: -5px;
         margin-right: 30px;
     }
-
-}
-
-/* Media min-width 992px. Everything above 992px. Ex. large tablet, laptop */
-
-@media (min-width: 992px) {
-    .container-fluid>.navbar-collapse,
-    .container-fluid>.navbar-header,
-    .container>.navbar-collapse,
-    .container>.navbar-header {
-        margin-left: 20px;
-        background-color: #172C54;
-    }
-    .navbar-header {
-        margin-top: 10px;
-    }
-    .navbar {
-        height: 130px;
-    }
-    .navbar-default .navbar-nav>li>a {
-        font-size: 12px;
-        letter-spacing: 2px;
-        color: #DAB664;
-        margin-top: 42px;
-    }
-
-    .logo {
-        width: 200px;
-        height: 100px;
-        padding: 0;
-    }
-
-    .social-icons-nav {
-        float: right;
-        margin-top: 56px;
-        margin-right: 15px;
-        margin-left: 20px;
-        letter-spacing: 6px;
-    }
-    .navbar-left {
-        float: left;
-    }
-
-    .text-center {
-        background-color: #172C54;
-        height: 102px;
-        margin-top: 20px;
-    }
-    .btn-success {
-        margin-top: 20px;
-    }
-    .follow-us {
-        font-size: 13px;
-        color: #fafafa;
-        text-align: center;
-        padding-top: 10px;
-        margin-bottom: 8px;
-        margin-left: 17px;
-    }
-
-    .social-icons {
-        display: block;
-        list-style: none;
-        color: #EFD28D;
-        letter-spacing: 14px;
-        font-size: 20px;
-        text-align: center;
-        margin-bottom: 12px;
-    }
-
-    .copyright {
-        font-size: 10px;
-        color: #DDDBDA;
-        margin-left: 25px;
-        padding-bottom: 10px;
-    }
-    .portfolio-p {
-        text-align: left;
-        margin: 25px 150px 57px 150px;
-        padding: 0;
-    }
-
-
-    /* Used W3 Schools to get hover effect code */
-    .imgage-in-portfolio-page {
-        opacity: 1;
-        display: block;
-        width: 100%;
-        height: auto;
-        transition: .6s ease-in-out;
-        backface-visibility: hidden;
-        margin-left: 13%;
-    }
-
-    .middle {
-        transition: .6s ease-in-out;
-        opacity: 0;
-        position: absolute;
-        top: 50%;
-        left: 52%;
-        transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        text-align: center;
-    }
-
-    .portfolio-image:hover .imgage-in-portfolio-page {
-        opacity: 0.3;
-    }
-
-    .portfolio-image:hover .middle {
-        opacity: 1;
-    }
-
-    .portfolio-image-link {
-        text-decoration: none;
-        color: #fafafa;
-        cursor: pointer;
-    }
-    .portfolio-image-link:hover {
-        text-decoration: none;
-        color: #DAB664;
-        transition: .6s ease-in-out;
-    }
-
-    .portfolio-text {
-        font-size: 16px;
-        background-color: #172C54;
-        padding: 16px 32px;
-        margin-bottom: 50px;
-        text-align: left;
-    }
-
-    .caption-portfolio {
-        color: #DAB664;
-        padding: 5px;
-        font-size: 18px;
-        margin-left: 11%;
-    }
-
-    .caption-portfolio-link {
-        text-decoration: none;
-        color: #DAB664;
-        cursor: pointer;
-    }
-
-    .caption-portfolio-link:hover {
-        text-decoration: none;
-        background-color: #172C54;
-        color: #DAB664;
-        transition: .6s ease-in-out;
-        padding: 10px;
-    }
-
-    .block-divider-portfolio {
-        width: 25px;
-        margin-bottom: 45px;
-    }
-    .project-images {
-        margin-left: 8%;
-    }
-
-    .project-image {
-        padding: 5px;
-    }
-    .caption-project {
-        font-size: 18px;
-        color: #DAB664;
-        margin-bottom: 30px;
-    }
-    .home-page-h1 {
-        font-size: 28px;
-    }
-
-    .home-image {
-        display: inline-block;
-        padding: 10px;
-    }
-    .award-logo-houzz {
-        width: 100px;
-        height: 100px;
-        margin-left: 20px;
-    }
-    .award-logo-buildaward {
-        height: 100px;
-        width: 200px;
-        margin-left: 7px;
-    }
-    .award-logo-igs {
-        height: 120px;
-        width: 200px;
-        margin-bottom: -8px;
-        margin-left: -20px;
-    }
-    .awards-h1 {
-        text-align: center;
-        font-size: 22px;
-    }
-    .imgage-in-mystory-page {
-        margin: 20px;
-    }
-    .mystory-p {
-        margin-left: 40px;
-    }
-    .blog-p {
-        font-size: 14px;
-        margin-bottom: 40px;
-        text-align: left;
-    }
-    .btn {
+    .blog {
         margin: 0;
     }
 
-    .form-inline {
-        text-align: center;
-    }
-    .blog {
-        margin-top: 50px 0 20px 0;
-        padding: 0;
-    }
-    .services-p-top {
-        margin: 50px 50px 70px 50px;
-    }
-    .services-p {
-        margin-bottom: 50px;
-        margin-left: 40px;
-        margin-right: 40px;
-    }
-    .services-h2 {
-        text-align: center;
-        margin-top: 115px;
-    }
-    .location-heading {
-        margin-left: 40px;
-        margin-top: 40px;
-    }
-    .contact-p {
-        margin-left: 40px;
-    }
-    .location-image {
-        margin-left: 21px;
-        margin-top: 20px;
-    }
-    .contact-h4 {
-        margin-top: 50px;
-        margin-bottom: 40px;
-    }
-    .left-column-contact {
-        margin-top: 50px;
-        margin-right: 50px;
-    }
-    .block-divider-contact {
-        width: 180px;
-        margin-left: -5px;
-        margin-right: 50px;
-    }
+
+    /* Media min-width 992px. Everything above 992px. Ex. large tablet, laptop */
+    @media (min-width: 992px) {
+        .container-fluid>.navbar-collapse,
+        .container-fluid>.navbar-header,
+        .container>.navbar-collapse,
+        .container>.navbar-header {
+            margin-left: 20px;
+            background-color: #172C54;
+        }
+        .navbar-header {
+            margin-top: 10px;
+        }
+        .navbar {
+            height: 130px;
+        }
+        .navbar-default .navbar-nav>li>a {
+            font-size: 12px;
+            letter-spacing: 2px;
+            color: #DAB664;
+            margin-top: 42px;
+        }
+
+        .logo {
+            width: 200px;
+            height: 100px;
+            padding: 0;
+        }
+
+        .social-icons-nav {
+            float: right;
+            margin-top: 56px;
+            margin-right: 15px;
+            margin-left: 20px;
+            letter-spacing: 6px;
+        }
+        .navbar-left {
+            float: left;
+        }
+
+        .text-center {
+            background-color: #172C54;
+            height: 102px;
+            margin-top: 20px;
+        }
+        .btn-success {
+            margin-top: 20px;
+        }
+        .follow-us {
+            font-size: 13px;
+            color: #fafafa;
+            text-align: center;
+            padding-top: 10px;
+            margin-bottom: 8px;
+            margin-left: 17px;
+        }
+
+        .social-icons {
+            display: block;
+            list-style: none;
+            color: #EFD28D;
+            letter-spacing: 14px;
+            font-size: 20px;
+            text-align: center;
+            margin-bottom: 12px;
+        }
+
+        .copyright {
+            font-size: 10px;
+            color: #DDDBDA;
+            margin-left: 25px;
+            padding-bottom: 10px;
+        }
+        .portfolio-p {
+            text-align: left;
+            margin: 25px 150px 57px 150px;
+            padding: 0;
+        }
 
 
-}
+        /* Used W3 Schools to get hover effect code */
+        .imgage-in-portfolio-page {
+            opacity: 1;
+            display: block;
+            width: 100%;
+            height: auto;
+            transition: .6s ease-in-out;
+            backface-visibility: hidden;
+            margin-left: 13%;
+        }
+
+        .middle {
+            transition: .6s ease-in-out;
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 52%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        .portfolio-image:hover .imgage-in-portfolio-page {
+            opacity: 0.3;
+        }
+
+        .portfolio-image:hover .middle {
+            opacity: 1;
+        }
+
+        .portfolio-image-link {
+            text-decoration: none;
+            color: #fafafa;
+            cursor: pointer;
+        }
+        .portfolio-image-link:hover {
+            text-decoration: none;
+            color: #DAB664;
+            transition: .6s ease-in-out;
+        }
+
+        .portfolio-text {
+            font-size: 16px;
+            background-color: #172C54;
+            padding: 16px 32px;
+            margin-bottom: 50px;
+            text-align: left;
+        }
+
+        .caption-portfolio {
+            color: #DAB664;
+            padding: 5px;
+            font-size: 18px;
+            margin-left: 11%;
+        }
+
+        .caption-portfolio-link {
+            text-decoration: none;
+            color: #DAB664;
+            cursor: pointer;
+        }
+
+        .caption-portfolio-link:hover {
+            text-decoration: none;
+            background-color: #172C54;
+            color: #DAB664;
+            transition: .6s ease-in-out;
+            padding: 10px;
+        }
+
+        .block-divider-portfolio {
+            width: 25px;
+            margin-bottom: 45px;
+        }
+        .project-images {
+            margin-left: 8%;
+        }
+
+        .project-image {
+            padding: 5px;
+        }
+        .caption-project {
+            font-size: 18px;
+            color: #DAB664;
+            margin-bottom: 30px;
+        }
+        .home-page-h1 {
+            font-size: 28px;
+        }
+
+        .home-image {
+            display: inline-block;
+            padding: 10px;
+        }
+        .award-logo-houzz {
+            width: 100px;
+            height: 100px;
+            margin-left: 20px;
+        }
+        .award-logo-buildaward {
+            height: 100px;
+            width: 200px;
+            margin-left: 7px;
+        }
+        .award-logo-igs {
+            height: 120px;
+            width: 200px;
+            margin-bottom: -8px;
+            margin-left: -20px;
+        }
+        .awards-h1 {
+            text-align: center;
+            font-size: 22px;
+        }
+        .imgage-in-mystory-page {
+            margin: 20px;
+        }
+        .mystory-p {
+            margin-left: 40px;
+        }
+        .blog-p {
+            font-size: 14px;
+            margin-bottom: 40px;
+            text-align: left;
+        }
+        .btn {
+            margin: 0;
+        }
+
+        .form-inline {
+            text-align: center;
+        }
+        .container-fluid-blog {
+            padding: 0;
+        }
+        .blog {
+            margin-top: 50px 0 20px 0;
+            padding: 0;
+        }
+        .services-p-top {
+            margin: 50px 50px 70px 50px;
+        }
+        .services-p {
+            margin-bottom: 50px;
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+        .services-h2 {
+            text-align: center;
+            margin-top: 115px;
+        }
+        .location-heading {
+            margin-left: 40px;
+            margin-top: 40px;
+        }
+        .contact-p {
+            margin-left: 40px;
+        }
+        .location-image {
+            margin-left: 21px;
+            margin-top: 20px;
+        }
+        .contact-h4 {
+            margin-top: 50px;
+            margin-bottom: 40px;
+        }
+        .left-column-contact {
+            margin-top: 50px;
+            margin-right: 50px;
+        }
+        .block-divider-contact {
+            width: 180px;
+            margin-left: -5px;
+            margin-right: 50px;
+        }
+        .blog {
+            margin: 0;
+        }
+        .form-inline {
+            margin-bottom: 50px;
+        }
+
+    }
