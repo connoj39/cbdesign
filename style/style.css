@@ -283,13 +283,43 @@
     margin-left: 15px;
 }
 
-.col-sm-8 {
-    padding: 0;
+.list-group {
+    list-style: none;
 }
 
-.col-sm-4 {
-    padding: 0;
+.location {
+    font-size: 20px;
+    margin-left: 20px;
 }
+
+.location-heading {
+    margin-top: 40px;
+}
+
+.contact-h4 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.left-column-contact {
+    margin-top: 10px;
+}
+
+.contact-item {
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.contact-item .fa {
+    margin-right: 20px;
+}
+
+.block-divider-contact {
+    width: 100px;
+    margin-left: -30px;
+}
+
+
 
 
 /* Media min-width 768px. Everything above the size of 768px, ex. a tablet */
@@ -535,6 +565,23 @@
         text-align: center;
         margin-top: 45px;
     }
+    .location-heading {
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .contact-p {
+        margin-left: 20px;
+    }
+    .location-image {
+        margin-left: 4px;
+    }
+    .contact-h4 {
+        margin-top: 35px;
+        margin-bottom: 20px;
+    }
+    .left-column-contact {
+        margin-top: 30px;
+    }
 }
 
 /* Media min-width 992px. Everything above 992px. Ex. large tablet, laptop */
@@ -765,4 +812,23 @@
         text-align: center;
         margin-top: 115px;
     }
+    .location-heading {
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+    .contact-p {
+        margin-left: 40px;
+    }
+    .location-image {
+        margin-left: 21px;
+        margin-top: 20px;
+    }
+    .contact-h4 {
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+    .left-column-contact {
+        margin-top: 50px;
+    }
+
 }
