@@ -3,6 +3,30 @@
     padding: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Roboto Slab', serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+span {
+    font-family: 'Roboto Slab', serif;
+}
+
+.follow-us {
+    font-family: 'Roboto Slab', serif;
+}
+
+.copyright {
+    font-family: 'Roboto', sans-serif;
+}
+
 /* Navbar */
 
 .navbar {
@@ -18,7 +42,7 @@
 .navbar-default .navbar-nav>li>a {
     color: #DAB664;
     margin-top: 12px;
-    font-family: 'GFS Didot';
+    font-family: 'Roboto Slab', serif;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
@@ -153,6 +177,7 @@
 .portfolio-p {
     text-align: left;
     padding-left: 7px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .portfolio-images {
