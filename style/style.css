@@ -170,18 +170,12 @@ span {
 
 .caption-portfolio {
     color: #DAB664;
-    margin-left: 1%;
     margin-bottom: 28px;
 }
 
 .portfolio-p {
     text-align: left;
-    padding-left: 7px;
     font-family: 'Roboto', sans-serif;
-}
-
-.portfolio-images {
-    margin-left: 10px;
 }
 
 .block-divider-portfolio {
@@ -228,7 +222,6 @@ span {
 }
 
 .project-images {
-    margin-left: 5%;
     margin-top: 10px;
 }
 
@@ -306,11 +299,6 @@ span {
     margin-bottom: 20px;
 }
 
-.blog {
-    margin-top: 20px;
-    padding: 0;
-}
-
 .services-p-top {
     margin-bottom: 8px;
 }
@@ -320,17 +308,12 @@ span {
     margin-top: 35px;
 }
 
-.services-p {
-    margin-left: 15px;
-}
-
 .list-group {
     list-style: none;
 }
 
 .location {
     font-size: 20px;
-    margin-left: 20px;
 }
 
 .location-heading {
@@ -360,10 +343,6 @@ span {
     margin-left: -5px;
 }
 
-.blog {
-    margin: 0;
-}
-
 .form-inline {
     margin-bottom: 30px;
 }
@@ -372,7 +351,9 @@ span {
     padding: 5px;
 }
 
-.container .video {}
+.index-page-caption {
+    text-align: center;
+}
 
 
 
@@ -454,9 +435,6 @@ span {
 
     .caption-portfolio {
         color: #DAB664;
-        padding: 5px;
-        margin-left: 35px;
-        margin-right: 35px;
         font-size: 16px;
         margin-bottom: 18px;
     }
@@ -468,8 +446,7 @@ span {
 
     .portfolio-p {
         text-align: left;
-        margin: 25px 90px 30px 90px;
-        padding: 0;
+        margin: 25px 30px;
     }
     .block-divider-portfolio {
         width: 25px;
@@ -482,7 +459,6 @@ span {
         height: auto;
         transition: .6s ease-in-out;
         backface-visibility: hidden;
-        margin-left: 11%;
     }
 
     .middle {
@@ -526,8 +502,6 @@ span {
 
     .caption-portfolio {
         color: #DAB664;
-        padding: 5px;
-        margin-left: 11%;
         font-size: 18px;
     }
 
@@ -542,7 +516,6 @@ span {
         background-color: #172C54;
         color: #DAB664;
         transition: .6s ease-in-out;
-        padding: 10px;
     }
 
     .block-divider-portfolio {
@@ -550,7 +523,6 @@ span {
         margin-bottom: 45px;
     }
     .project-images {
-        margin-left: 8%;
         margin-top: 50px;
     }
     .caption-project {
@@ -569,7 +541,6 @@ span {
     .award-logo-houzz {
         width: 60px;
         height: 60px;
-        margin-left: 20px;
     }
     .award-logo-buildaward {
         height: 60px;
@@ -591,9 +562,6 @@ span {
     .imgage-in-mystory-page {
         margin: 20px;
     }
-    .mystory-p {
-        margin-left: 40px;
-    }
     .blog-p {
         font-size: 14px;
         margin-bottom: 30px;
@@ -605,30 +573,18 @@ span {
     .form-inline {
         text-align: center;
     }
-    .blog {
-        margin-top: 25px;
-        padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
     .services-p-top {
         margin: 30px 20px 30px 20px;
     }
     .services-p {
         margin-bottom: 50px;
-        margin-left: 20px;
-        margin-right: 20px;
     }
     .services-h2 {
         text-align: center;
         margin-top: 45px;
     }
     .location-heading {
-        margin-left: 20px;
         margin-top: 30px;
-    }
-    .contact-p {
-        margin-left: 20px;
     }
     .location-image {
         margin-left: 4px;
@@ -644,9 +600,6 @@ span {
         width: 220px;
         margin-left: -5px;
         margin-right: 30px;
-    }
-    .blog {
-        margin: 0;
     }
 }
 
@@ -726,7 +679,7 @@ span {
     }
     .portfolio-p {
         text-align: left;
-        margin: 25px 150px 57px 150px;
+        margin: 25px 57px;
         padding: 0;
     }
 
@@ -739,7 +692,6 @@ span {
         height: auto;
         transition: .6s ease-in-out;
         backface-visibility: hidden;
-        margin-left: 13%;
     }
 
     .middle {
@@ -775,16 +727,13 @@ span {
     .portfolio-text {
         font-size: 16px;
         background-color: #172C54;
-        padding: 16px 32px;
         margin-bottom: 50px;
         text-align: left;
     }
 
     .caption-portfolio {
         color: #DAB664;
-        padding: 5px;
         font-size: 18px;
-        margin-left: 11%;
     }
 
     .caption-portfolio-link {
@@ -805,10 +754,6 @@ span {
         width: 25px;
         margin-bottom: 45px;
     }
-    .project-images {
-        margin-left: 8%;
-    }
-
     .project-image {
         padding: 5px;
     }
@@ -854,9 +799,6 @@ span {
     .imgage-in-mystory-page {
         margin: 20px;
     }
-    .mystory-p {
-        margin-left: 40px;
-    }
     .blog-p {
         font-size: 14px;
         margin-bottom: 40px;
@@ -872,17 +814,11 @@ span {
     .container-fluid-blog {
         padding: 0;
     }
-    .blog {
-        margin-top: 50px 0 20px 0;
-        padding: 0;
-    }
     .services-p-top {
-        margin: 50px 50px 70px 50px;
+        margin: 50px 70px;
     }
     .services-p {
         margin-bottom: 50px;
-        margin-left: 40px;
-        margin-right: 40px;
     }
     .services-h2 {
         text-align: center;
@@ -890,14 +826,9 @@ span {
     }
 
     .location-heading {
-        margin-left: 40px;
         margin-top: 40px;
     }
-    .contact-p {
-        margin-left: 40px;
-    }
     .location-image {
-        margin-left: 21px;
         margin-top: 20px;
     }
     .contact-h4 {
@@ -906,15 +837,11 @@ span {
     }
     .left-column-contact {
         margin-top: 50px;
-        margin-right: 50px;
     }
     .block-divider-contact {
         width: 180px;
         margin-left: -5px;
         margin-right: 50px;
-    }
-    .blog {
-        margin: 0;
     }
     .form-inline {
         margin-bottom: 50px;
