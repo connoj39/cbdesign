@@ -178,6 +178,7 @@ span {
     font-family: 'Roboto', sans-serif;
 }
 
+
 .block-divider-portfolio {
     width: 25px;
     height: 3px;
@@ -465,6 +466,7 @@ span {
         height: auto;
         transition: .6s ease-in-out;
         backface-visibility: hidden;
+        margin-bottom: 30px;
     }
 
     .middle {
@@ -700,6 +702,7 @@ span {
         height: auto;
         transition: .6s ease-in-out;
         backface-visibility: hidden;
+        margin-bottom: 40px;
     }
 
     .middle {
